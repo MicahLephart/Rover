@@ -1,0 +1,5 @@
+source;share/gazebo_worlds/local_setup.bash
+source;share/gazebo_worlds/local_setup.dsv
+source;share/gazebo_worlds/local_setup.fish
+source;share/gazebo_worlds/local_setup.sh
+source;share/gazebo_worlds/local_setup.zsh

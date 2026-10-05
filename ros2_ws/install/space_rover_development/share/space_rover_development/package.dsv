@@ -1,0 +1,9 @@
+source;share/space_rover_development/hook/pythonpath.ps1
+source;share/space_rover_development/hook/pythonpath.dsv
+source;share/space_rover_development/hook/pythonpath.sh
+source;share/space_rover_development/hook/ament_prefix_path.ps1
+source;share/space_rover_development/hook/ament_prefix_path.dsv
+source;share/space_rover_development/hook/ament_prefix_path.sh
+source;../../build/space_rover_development/share/space_rover_development/hook/pythonpath_develop.ps1
+source;../../build/space_rover_development/share/space_rover_development/hook/pythonpath_develop.dsv
+source;../../build/space_rover_development/share/space_rover_development/hook/pythonpath_develop.sh

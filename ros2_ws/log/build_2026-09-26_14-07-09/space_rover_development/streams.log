@@ -1,0 +1,27 @@
+[0.670s] Invoking command in '/home/micah/Documents/ros2_ws/src/space_rover_development': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/build/space_rover_development/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/micah/Documents/ros2_ws/install/space_rover_development/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/space_rover_development build --build-base /home/micah/Documents/ros2_ws/build/space_rover_development/build install --record /home/micah/Documents/ros2_ws/build/space_rover_development/install.log --install-scripts $base/lib/space_rover_development --single-version-externally-managed install_data
+[0.881s] running egg_info
+[0.893s] writing ../../build/space_rover_development/space_rover_development.egg-info/PKG-INFO
+[0.894s] writing dependency_links to ../../build/space_rover_development/space_rover_development.egg-info/dependency_links.txt
+[0.894s] writing entry points to ../../build/space_rover_development/space_rover_development.egg-info/entry_points.txt
+[0.894s] writing requirements to ../../build/space_rover_development/space_rover_development.egg-info/requires.txt
+[0.894s] writing top-level names to ../../build/space_rover_development/space_rover_development.egg-info/top_level.txt
+[0.922s] reading manifest file '../../build/space_rover_development/space_rover_development.egg-info/SOURCES.txt'
+[0.924s] adding license file 'LICENSE'
+[0.924s] writing manifest file '../../build/space_rover_development/space_rover_development.egg-info/SOURCES.txt'
+[0.925s] running build
+[0.925s] running build_py
+[0.925s] copying space_rover_development/node_example.py -> /home/micah/Documents/ros2_ws/build/space_rover_development/build/lib/space_rover_development
+[0.925s] copying space_rover_development/__init__.py -> /home/micah/Documents/ros2_ws/build/space_rover_development/build/lib/space_rover_development
+[0.925s] copying space_rover_development/py.typed -> /home/micah/Documents/ros2_ws/build/space_rover_development/build/lib/space_rover_development
+[0.925s] running install
+[0.929s] running install_lib
+[0.942s] running install_data
+[0.942s] copying resource/space_rover_development -> /home/micah/Documents/ros2_ws/install/space_rover_development/share/ament_index/resource_index/packages
+[0.943s] copying package.xml -> /home/micah/Documents/ros2_ws/install/space_rover_development/share/space_rover_development
+[0.943s] running install_egg_info
+[0.960s] removing '/home/micah/Documents/ros2_ws/install/space_rover_development/lib/python3.14/site-packages/space_rover_development-0.0.0-py3.14.egg-info' (and everything under it)
+[0.960s] Copying ../../build/space_rover_development/space_rover_development.egg-info to /home/micah/Documents/ros2_ws/install/space_rover_development/lib/python3.14/site-packages/space_rover_development-0.0.0-py3.14.egg-info
+[0.961s] running install_scripts
+[1.046s] Installing example_node_executable script to /home/micah/Documents/ros2_ws/install/space_rover_development/lib/space_rover_development
+[1.046s] writing list of installed files to '/home/micah/Documents/ros2_ws/build/space_rover_development/install.log'
+[1.073s] Invoked command in '/home/micah/Documents/ros2_ws/src/space_rover_development' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/build/space_rover_development/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/micah/Documents/ros2_ws/install/space_rover_development/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/space_rover_development build --build-base /home/micah/Documents/ros2_ws/build/space_rover_development/build install --record /home/micah/Documents/ros2_ws/build/space_rover_development/install.log --install-scripts $base/lib/space_rover_development --single-version-externally-managed install_data

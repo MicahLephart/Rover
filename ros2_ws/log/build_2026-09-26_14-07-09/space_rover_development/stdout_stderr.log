@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/space_rover_development/space_rover_development.egg-info/PKG-INFO
+writing dependency_links to ../../build/space_rover_development/space_rover_development.egg-info/dependency_links.txt
+writing entry points to ../../build/space_rover_development/space_rover_development.egg-info/entry_points.txt
+writing requirements to ../../build/space_rover_development/space_rover_development.egg-info/requires.txt
+writing top-level names to ../../build/space_rover_development/space_rover_development.egg-info/top_level.txt
+reading manifest file '../../build/space_rover_development/space_rover_development.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/space_rover_development/space_rover_development.egg-info/SOURCES.txt'
+running build
+running build_py
+copying space_rover_development/node_example.py -> /home/micah/Documents/ros2_ws/build/space_rover_development/build/lib/space_rover_development
+copying space_rover_development/__init__.py -> /home/micah/Documents/ros2_ws/build/space_rover_development/build/lib/space_rover_development
+copying space_rover_development/py.typed -> /home/micah/Documents/ros2_ws/build/space_rover_development/build/lib/space_rover_development
+running install
+running install_lib
+running install_data
+copying resource/space_rover_development -> /home/micah/Documents/ros2_ws/install/space_rover_development/share/ament_index/resource_index/packages
+copying package.xml -> /home/micah/Documents/ros2_ws/install/space_rover_development/share/space_rover_development
+running install_egg_info
+removing '/home/micah/Documents/ros2_ws/install/space_rover_development/lib/python3.14/site-packages/space_rover_development-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/space_rover_development/space_rover_development.egg-info to /home/micah/Documents/ros2_ws/install/space_rover_development/lib/python3.14/site-packages/space_rover_development-0.0.0-py3.14.egg-info
+running install_scripts
+Installing example_node_executable script to /home/micah/Documents/ros2_ws/install/space_rover_development/lib/space_rover_development
+writing list of installed files to '/home/micah/Documents/ros2_ws/build/space_rover_development/install.log'

@@ -1,0 +1,17 @@
+[0.917s] Invoking command in '/home/micah/Documents/ros2_ws/build/space_rover_development': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/build/space_rover_development/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/micah/Documents/ros2_ws/install/space_rover_development/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/micah/Documents/ros2_ws/build/space_rover_development/build --no-deps symlink_data
+[1.188s] running develop
+[1.303s] running egg_info
+[1.315s] writing space_rover_development.egg-info/PKG-INFO
+[1.316s] writing dependency_links to space_rover_development.egg-info/dependency_links.txt
+[1.316s] writing entry points to space_rover_development.egg-info/entry_points.txt
+[1.316s] writing requirements to space_rover_development.egg-info/requires.txt
+[1.316s] writing top-level names to space_rover_development.egg-info/top_level.txt
+[1.343s] reading manifest file 'space_rover_development.egg-info/SOURCES.txt'
+[1.345s] writing manifest file 'space_rover_development.egg-info/SOURCES.txt'
+[1.358s] running build_ext
+[1.358s] Creating /home/micah/Documents/ros2_ws/install/space_rover_development/lib/python3.14/site-packages/space-rover-development.egg-link (link to .)
+[1.359s] Installing example_node_executable script to /home/micah/Documents/ros2_ws/install/space_rover_development/lib/space_rover_development
+[1.359s] 
+[1.359s] Installed /home/micah/Documents/ros2_ws/build/space_rover_development
+[1.359s] running symlink_data
+[1.400s] Invoked command in '/home/micah/Documents/ros2_ws/build/space_rover_development' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/build/space_rover_development/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/micah/Documents/ros2_ws/install/space_rover_development/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/micah/Documents/ros2_ws/build/space_rover_development/build --no-deps symlink_data

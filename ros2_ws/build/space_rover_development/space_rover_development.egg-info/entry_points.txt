@@ -1,0 +1,2 @@
+[console_scripts]
+example_node_executable = space_rover_development.node_example:main

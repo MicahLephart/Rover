@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing space_rover_development.egg-info/PKG-INFO
+writing dependency_links to space_rover_development.egg-info/dependency_links.txt
+writing entry points to space_rover_development.egg-info/entry_points.txt
+writing requirements to space_rover_development.egg-info/requires.txt
+writing top-level names to space_rover_development.egg-info/top_level.txt
+reading manifest file 'space_rover_development.egg-info/SOURCES.txt'
+writing manifest file 'space_rover_development.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/micah/Documents/ros2_ws/install/space_rover_development/lib/python3.14/site-packages/space-rover-development.egg-link (link to .)
+Installing example_node_executable script to /home/micah/Documents/ros2_ws/install/space_rover_development/lib/space_rover_development
+
+Installed /home/micah/Documents/ros2_ws/build/space_rover_development
+running symlink_data

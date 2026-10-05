@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/micah/Documents/ros2_ws/src/gazebo_worlds" FILES "/home/micah/Documents/ros2_ws/build/gazebo_worlds/ament_cmake_index/share/ament_index/resource_index/packages/gazebo_worlds" "DESTINATION" "share/ament_index/resource_index/packages")
