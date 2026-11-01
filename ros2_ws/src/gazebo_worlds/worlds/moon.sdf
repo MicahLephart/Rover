@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <sdf version="1.9">
+
   <world name="moon">
     <!-- Physics -->
     <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics" />
@@ -140,12 +141,12 @@
 
     <!-- Terrain -->
     <include>
-      <uri>
-        model://lunar_surface0
-      </uri>
+      <uri>model://lunar_surface0</uri>
+      <name>tile_center</name>
       <pose>0 0 0 0 0 0</pose>
       <static>true</static>
     </include>
+
 
     <!-- Objects -->
     <include>
