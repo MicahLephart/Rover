@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/moon_rover_bridge/moon_rover_bridge.egg-info
+writing ../../build/moon_rover_bridge/moon_rover_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../build/moon_rover_bridge/moon_rover_bridge.egg-info/dependency_links.txt
+writing entry points to ../../build/moon_rover_bridge/moon_rover_bridge.egg-info/entry_points.txt
+writing requirements to ../../build/moon_rover_bridge/moon_rover_bridge.egg-info/requires.txt
+writing top-level names to ../../build/moon_rover_bridge/moon_rover_bridge.egg-info/top_level.txt
+writing manifest file '../../build/moon_rover_bridge/moon_rover_bridge.egg-info/SOURCES.txt'
+reading manifest file '../../build/moon_rover_bridge/moon_rover_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../build/moon_rover_bridge/moon_rover_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge
+copying moon_rover_bridge/collector_rover_node.py -> /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge
+copying moon_rover_bridge/rover_base.py -> /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge
+copying moon_rover_bridge/hauler_rover_node.py -> /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge
+copying moon_rover_bridge/__init__.py -> /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge
+running install
+running install_lib
+creating /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge
+copying /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge/collector_rover_node.py -> /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge
+copying /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge/rover_base.py -> /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge
+copying /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge/hauler_rover_node.py -> /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge
+copying /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge/__init__.py -> /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge
+byte-compiling /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge/collector_rover_node.py to collector_rover_node.cpython-314.pyc
+byte-compiling /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge/rover_base.py to rover_base.cpython-314.pyc
+byte-compiling /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge/hauler_rover_node.py to hauler_rover_node.cpython-314.pyc
+byte-compiling /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge/__init__.py to __init__.cpython-314.pyc
+running install_data
+creating /home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/ament_index/resource_index/packages
+copying resource/moon_rover_bridge -> /home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/moon_rover_bridge
+running install_egg_info
+Copying ../../build/moon_rover_bridge/moon_rover_bridge.egg-info to /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge-0.1.0-py3.14.egg-info
+running install_scripts
+Installing collector_rover_node script to /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/moon_rover_bridge
+Installing hauler_rover_node script to /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/moon_rover_bridge
+writing list of installed files to '/home/micah/Documents/ros2_ws/build/moon_rover_bridge/install.log'

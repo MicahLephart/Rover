@@ -1,0 +1,40 @@
+[0.576s] Invoking command in '/home/micah/Documents/ros2_ws/src/moon_rover_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/build/moon_rover_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/moon_rover_bridge build --build-base /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build install --record /home/micah/Documents/ros2_ws/build/moon_rover_bridge/install.log --install-scripts $base/lib/moon_rover_bridge --single-version-externally-managed install_data
+[0.751s] running egg_info
+[0.762s] creating ../../build/moon_rover_bridge/moon_rover_bridge.egg-info
+[0.762s] writing ../../build/moon_rover_bridge/moon_rover_bridge.egg-info/PKG-INFO
+[0.763s] writing dependency_links to ../../build/moon_rover_bridge/moon_rover_bridge.egg-info/dependency_links.txt
+[0.763s] writing entry points to ../../build/moon_rover_bridge/moon_rover_bridge.egg-info/entry_points.txt
+[0.763s] writing requirements to ../../build/moon_rover_bridge/moon_rover_bridge.egg-info/requires.txt
+[0.763s] writing top-level names to ../../build/moon_rover_bridge/moon_rover_bridge.egg-info/top_level.txt
+[0.763s] writing manifest file '../../build/moon_rover_bridge/moon_rover_bridge.egg-info/SOURCES.txt'
+[0.787s] reading manifest file '../../build/moon_rover_bridge/moon_rover_bridge.egg-info/SOURCES.txt'
+[0.788s] writing manifest file '../../build/moon_rover_bridge/moon_rover_bridge.egg-info/SOURCES.txt'
+[0.788s] running build
+[0.788s] running build_py
+[0.788s] creating /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge
+[0.788s] copying moon_rover_bridge/collector_rover_node.py -> /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge
+[0.788s] copying moon_rover_bridge/rover_base.py -> /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge
+[0.788s] copying moon_rover_bridge/hauler_rover_node.py -> /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge
+[0.788s] copying moon_rover_bridge/__init__.py -> /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge
+[0.789s] running install
+[0.792s] running install_lib
+[0.803s] creating /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge
+[0.803s] copying /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge/collector_rover_node.py -> /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge
+[0.803s] copying /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge/rover_base.py -> /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge
+[0.803s] copying /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge/hauler_rover_node.py -> /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge
+[0.803s] copying /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build/lib/moon_rover_bridge/__init__.py -> /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge
+[0.803s] byte-compiling /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge/collector_rover_node.py to collector_rover_node.cpython-314.pyc
+[0.804s] byte-compiling /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge/rover_base.py to rover_base.cpython-314.pyc
+[0.806s] byte-compiling /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge/hauler_rover_node.py to hauler_rover_node.cpython-314.pyc
+[0.806s] byte-compiling /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge/__init__.py to __init__.cpython-314.pyc
+[0.806s] running install_data
+[0.806s] creating /home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/ament_index/resource_index/packages
+[0.807s] copying resource/moon_rover_bridge -> /home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/ament_index/resource_index/packages
+[0.807s] copying package.xml -> /home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/moon_rover_bridge
+[0.807s] running install_egg_info
+[0.818s] Copying ../../build/moon_rover_bridge/moon_rover_bridge.egg-info to /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages/moon_rover_bridge-0.1.0-py3.14.egg-info
+[0.818s] running install_scripts
+[0.873s] Installing collector_rover_node script to /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/moon_rover_bridge
+[0.873s] Installing hauler_rover_node script to /home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/moon_rover_bridge
+[0.873s] writing list of installed files to '/home/micah/Documents/ros2_ws/build/moon_rover_bridge/install.log'
+[0.890s] Invoked command in '/home/micah/Documents/ros2_ws/src/moon_rover_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/build/moon_rover_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/moon_rover_bridge build --build-base /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build install --record /home/micah/Documents/ros2_ws/build/moon_rover_bridge/install.log --install-scripts $base/lib/moon_rover_bridge --single-version-externally-managed install_data

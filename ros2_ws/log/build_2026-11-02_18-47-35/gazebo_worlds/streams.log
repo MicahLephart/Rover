@@ -1,0 +1,48 @@
+[0.008s] Invoking command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds': AMENT_PREFIX_PATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake /home/micah/Documents/ros2_ws/src/gazebo_worlds -DCMAKE_INSTALL_PREFIX=/home/micah/Documents/ros2_ws/install/gazebo_worlds
+[0.189s] -- The C compiler identification is GNU 15.2.0
+[0.343s] -- The CXX compiler identification is GNU 15.2.0
+[0.354s] -- Detecting C compiler ABI info
+[0.473s] -- Detecting C compiler ABI info - done
+[0.488s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.489s] -- Detecting C compile features
+[0.489s] -- Detecting C compile features - done
+[0.507s] -- Detecting CXX compiler ABI info
+[0.618s] -- Detecting CXX compiler ABI info - done
+[0.632s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.632s] -- Detecting CXX compile features
+[0.633s] -- Detecting CXX compile features - done
+[0.670s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.002s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[1.100s] -- Added test 'lint_cmake' to check CMake code style
+[1.101s] -- Added test 'xmllint' to check XML markup files
+[1.103s] -- Configuring done (1.1s)
+[1.106s] -- Generating done (0.0s)
+[1.109s] -- Build files have been written to: /home/micah/Documents/ros2_ws/build/gazebo_worlds
+[1.114s] Invoked command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds' returned '0': AMENT_PREFIX_PATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake /home/micah/Documents/ros2_ws/src/gazebo_worlds -DCMAKE_INSTALL_PREFIX=/home/micah/Documents/ros2_ws/install/gazebo_worlds
+[1.115s] Invoking command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds': AMENT_PREFIX_PATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/micah/Documents/ros2_ws/build/gazebo_worlds -- -j8 -l8
+[1.148s] Invoked command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds' returned '0': AMENT_PREFIX_PATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/micah/Documents/ros2_ws/build/gazebo_worlds -- -j8 -l8
+[1.159s] Invoking command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds': AMENT_PREFIX_PATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/micah/Documents/ros2_ws/build/gazebo_worlds
+[1.165s] -- Install configuration: ""
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/launch
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/launch/moon_launch.xml
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/worlds
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/worlds/moon.sdf
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/config
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/config/moon.yaml
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/ament_index/resource_index/package_run_dependencies/gazebo_worlds
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/ament_index/resource_index/parent_prefix_path/gazebo_worlds
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/environment/ament_prefix_path.sh
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/environment/ament_prefix_path.dsv
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/environment/path.sh
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/environment/path.dsv
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/local_setup.bash
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/local_setup.fish
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/local_setup.sh
+[1.165s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/local_setup.zsh
+[1.166s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/local_setup.dsv
+[1.166s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.dsv
+[1.166s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/ament_index/resource_index/packages/gazebo_worlds
+[1.166s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/cmake/gazebo_worldsConfig.cmake
+[1.166s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/cmake/gazebo_worldsConfig-version.cmake
+[1.166s] -- Installing: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.xml
+[1.167s] Invoked command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds' returned '0': AMENT_PREFIX_PATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/micah/Documents/ros2_ws/build/gazebo_worlds

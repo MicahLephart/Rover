@@ -1,0 +1,246 @@
+[-1793663253807924736.000s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[-1793663253807924736.000s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70f1aace7d90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70f1aacd7a10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70f1aacd7a10>>, mixin_verb=('build',))
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[-1793663253807924736.000s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/micah/Documents/ros2_ws'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_worlds) by extensions ['ignore', 'ignore_ament_install']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_worlds) by extension 'ignore'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_worlds) by extension 'ignore_ament_install'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_worlds) by extensions ['colcon_pkg']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_worlds) by extension 'colcon_pkg'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_worlds) by extensions ['colcon_meta']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_worlds) by extension 'colcon_meta'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_worlds) by extensions ['ros']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_worlds) by extension 'ros'
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_worlds' with type 'ros.ament_cmake' and name 'gazebo_worlds'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/moon_rover_bridge) by extensions ['ignore', 'ignore_ament_install']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/moon_rover_bridge) by extension 'ignore'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/moon_rover_bridge) by extension 'ignore_ament_install'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/moon_rover_bridge) by extensions ['colcon_pkg']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/moon_rover_bridge) by extension 'colcon_pkg'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/moon_rover_bridge) by extensions ['colcon_meta']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/moon_rover_bridge) by extension 'colcon_meta'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/moon_rover_bridge) by extensions ['ros']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/moon_rover_bridge) by extension 'ros'
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moon_rover_bridge' with type 'ros.ament_python' and name 'moon_rover_bridge'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/space_rover_development) by extensions ['ignore', 'ignore_ament_install']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/space_rover_development) by extension 'ignore'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/space_rover_development) by extension 'ignore_ament_install'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/space_rover_development) by extensions ['colcon_pkg']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/space_rover_development) by extension 'colcon_pkg'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/space_rover_development) by extensions ['colcon_meta']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/space_rover_development) by extension 'colcon_meta'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/space_rover_development) by extensions ['ros']
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/space_rover_development) by extension 'ros'
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/space_rover_development' with type 'ros.ament_python' and name 'space_rover_development'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[-1793663253807924736.000s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/micah/Documents/ros2_ws/install/space_rover_development' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[-1793663253807924736.000s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/micah/Documents/ros2_ws/install/gazebo_worlds' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[-1793663253807924736.000s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/micah/Documents/ros2_ws/install/gazebo_worlds' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1793663253807924736.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/micah/Documents/ros2_ws/install
+[-1793663253807924736.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/lyrical
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'moon_rover_bridge' build argument 'cmake_args' from command line to 'None'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'moon_rover_bridge' build argument 'cmake_target' from command line to 'None'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'moon_rover_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'moon_rover_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'moon_rover_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'moon_rover_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'moon_rover_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'moon_rover_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'moon_rover_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.verb:Building package 'moon_rover_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/micah/Documents/ros2_ws/build/moon_rover_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/micah/Documents/ros2_ws/install/moon_rover_bridge', 'merge_install': False, 'path': '/home/micah/Documents/ros2_ws/src/moon_rover_bridge', 'symlink_install': False, 'test_result_base': None}
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'space_rover_development' build argument 'cmake_args' from command line to 'None'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'space_rover_development' build argument 'cmake_target' from command line to 'None'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'space_rover_development' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'space_rover_development' build argument 'cmake_clean_cache' from command line to 'False'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'space_rover_development' build argument 'cmake_clean_first' from command line to 'False'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'space_rover_development' build argument 'cmake_force_configure' from command line to 'False'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'space_rover_development' build argument 'ament_cmake_args' from command line to 'None'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'space_rover_development' build argument 'catkin_cmake_args' from command line to 'None'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'space_rover_development' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.verb:Building package 'space_rover_development' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/micah/Documents/ros2_ws/build/space_rover_development', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/micah/Documents/ros2_ws/install/space_rover_development', 'merge_install': False, 'path': '/home/micah/Documents/ros2_ws/src/space_rover_development', 'symlink_install': False, 'test_result_base': None}
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'gazebo_worlds' build argument 'cmake_args' from command line to 'None'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'gazebo_worlds' build argument 'cmake_target' from command line to 'None'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'gazebo_worlds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'gazebo_worlds' build argument 'cmake_clean_cache' from command line to 'False'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'gazebo_worlds' build argument 'cmake_clean_first' from command line to 'False'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'gazebo_worlds' build argument 'cmake_force_configure' from command line to 'False'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'gazebo_worlds' build argument 'ament_cmake_args' from command line to 'None'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'gazebo_worlds' build argument 'catkin_cmake_args' from command line to 'None'
+[-1793663253807924736.000s] Level 5:colcon.colcon_core.verb:set package 'gazebo_worlds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_worlds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/micah/Documents/ros2_ws/build/gazebo_worlds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/micah/Documents/ros2_ws/install/gazebo_worlds', 'merge_install': False, 'path': '/home/micah/Documents/ros2_ws/src/gazebo_worlds', 'symlink_install': False, 'test_result_base': None}
+[-1793663253807924736.000s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[-1793663253807924736.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[-1793663253807924736.000s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/micah/Documents/ros2_ws/src/moon_rover_bridge' with build type 'ament_python'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('moon_rover_bridge', 'ament_prefix_path')
+[-1793663253807924736.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/moon_rover_bridge/hook/ament_prefix_path.ps1'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/moon_rover_bridge/hook/ament_prefix_path.dsv'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/moon_rover_bridge/hook/ament_prefix_path.sh'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1793663253807924736.000s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/micah/Documents/ros2_ws/src/space_rover_development' with build type 'ament_python'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('space_rover_development', 'ament_prefix_path')
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/micah/Documents/ros2_ws/install/space_rover_development/share/space_rover_development/hook/ament_prefix_path.ps1'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/micah/Documents/ros2_ws/install/space_rover_development/share/space_rover_development/hook/ament_prefix_path.dsv'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/micah/Documents/ros2_ws/install/space_rover_development/share/space_rover_development/hook/ament_prefix_path.sh'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1793663253807924736.000s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/micah/Documents/ros2_ws/src/moon_rover_bridge'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1793663253807924736.000s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/micah/Documents/ros2_ws/src/space_rover_development'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_scripts, sdist, dist_info, setopt, install_data, alias, bdist_dumb, install_headers, develop, install, bdist_rpm, build_clib, bdist, egg_info, editable_wheel, install_scripts, rotate, bdist_egg, easy_install, install_egg_info, build_py, install_lib, build_ext, clean, build, update_catalog, init_catalog, bdist_wheel, symlink_data, saveopts, check, extract_messages, compile_catalog
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_scripts, sdist, dist_info, setopt, install_data, alias, bdist_dumb, install_headers, develop, install, bdist_rpm, build_clib, bdist, egg_info, editable_wheel, install_scripts, rotate, bdist_egg, easy_install, install_egg_info, build_py, install_lib, build_ext, clean, build, update_catalog, init_catalog, bdist_wheel, symlink_data, saveopts, check, extract_messages, compile_catalog
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/micah/Documents/ros2_ws/src/space_rover_development': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/build/space_rover_development/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/micah/Documents/ros2_ws/install/space_rover_development/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/space_rover_development build --build-base /home/micah/Documents/ros2_ws/build/space_rover_development/build install --record /home/micah/Documents/ros2_ws/build/space_rover_development/install.log --install-scripts $base/lib/space_rover_development --single-version-externally-managed install_data
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/micah/Documents/ros2_ws/src/moon_rover_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/build/moon_rover_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/moon_rover_bridge build --build-base /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build install --record /home/micah/Documents/ros2_ws/build/moon_rover_bridge/install.log --install-scripts $base/lib/moon_rover_bridge --single-version-externally-managed install_data
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/micah/Documents/ros2_ws/src/space_rover_development' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/build/space_rover_development/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/micah/Documents/ros2_ws/install/space_rover_development/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/space_rover_development build --build-base /home/micah/Documents/ros2_ws/build/space_rover_development/build install --record /home/micah/Documents/ros2_ws/build/space_rover_development/install.log --install-scripts $base/lib/space_rover_development --single-version-externally-managed install_data
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/space_rover_development' for CMake module files
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/space_rover_development' for CMake config files
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/space_rover_development/lib'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/space_rover_development/bin'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/space_rover_development/lib/pkgconfig/space_rover_development.pc'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/space_rover_development/lib/python3.14/site-packages'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('space_rover_development', 'pythonpath')
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/micah/Documents/ros2_ws/install/space_rover_development/share/space_rover_development/hook/pythonpath.ps1'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/micah/Documents/ros2_ws/install/space_rover_development/share/space_rover_development/hook/pythonpath.dsv'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/micah/Documents/ros2_ws/install/space_rover_development/share/space_rover_development/hook/pythonpath.sh'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/space_rover_development/bin'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(space_rover_development)
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/space_rover_development/share/space_rover_development/package.ps1'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/micah/Documents/ros2_ws/install/space_rover_development/share/space_rover_development/package.dsv'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/space_rover_development/share/space_rover_development/package.sh'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/space_rover_development/share/space_rover_development/package.bash'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/space_rover_development/share/space_rover_development/package.zsh'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/micah/Documents/ros2_ws/install/space_rover_development/share/colcon-core/packages/space_rover_development)
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/moon_rover_bridge' for CMake module files
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/micah/Documents/ros2_ws/src/moon_rover_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/build/moon_rover_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/moon_rover_bridge build --build-base /home/micah/Documents/ros2_ws/build/moon_rover_bridge/build install --record /home/micah/Documents/ros2_ws/build/moon_rover_bridge/install.log --install-scripts $base/lib/moon_rover_bridge --single-version-externally-managed install_data
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/moon_rover_bridge' for CMake config files
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/bin'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/pkgconfig/moon_rover_bridge.pc'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('moon_rover_bridge', 'pythonpath')
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/moon_rover_bridge/hook/pythonpath.ps1'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/moon_rover_bridge/hook/pythonpath.dsv'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/moon_rover_bridge/hook/pythonpath.sh'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/bin'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moon_rover_bridge)
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/moon_rover_bridge/package.ps1'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/moon_rover_bridge/package.dsv'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/moon_rover_bridge/package.sh'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/moon_rover_bridge/package.bash'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/moon_rover_bridge/package.zsh'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/micah/Documents/ros2_ws/install/moon_rover_bridge/share/colcon-core/packages/moon_rover_bridge)
+[-1793663253807924736.000s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/micah/Documents/ros2_ws/src/gazebo_worlds' with build type 'ament_cmake'
+[-1793663253807924736.000s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/micah/Documents/ros2_ws/src/gazebo_worlds'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds': AMENT_PREFIX_PATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake /home/micah/Documents/ros2_ws/src/gazebo_worlds -DCMAKE_INSTALL_PREFIX=/home/micah/Documents/ros2_ws/install/gazebo_worlds
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds' returned '0': AMENT_PREFIX_PATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake /home/micah/Documents/ros2_ws/src/gazebo_worlds -DCMAKE_INSTALL_PREFIX=/home/micah/Documents/ros2_ws/install/gazebo_worlds
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds': AMENT_PREFIX_PATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/micah/Documents/ros2_ws/build/gazebo_worlds -- -j8 -l8
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds' returned '0': AMENT_PREFIX_PATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/micah/Documents/ros2_ws/build/gazebo_worlds -- -j8 -l8
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds': AMENT_PREFIX_PATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/micah/Documents/ros2_ws/build/gazebo_worlds
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_worlds)
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/gazebo_worlds' for CMake module files
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds' returned '0': AMENT_PREFIX_PATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/micah/Documents/ros2_ws/install/moon_rover_bridge/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/micah/Documents/ros2_ws/build/gazebo_worlds
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/gazebo_worlds' for CMake config files
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_worlds', 'cmake_prefix_path')
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/hook/cmake_prefix_path.ps1'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/hook/cmake_prefix_path.dsv'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/hook/cmake_prefix_path.sh'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/gazebo_worlds/bin'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/gazebo_worlds/lib/pkgconfig/gazebo_worlds.pc'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/gazebo_worlds/lib/python3.14/site-packages'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/gazebo_worlds/bin'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.ps1'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.dsv'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.sh'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.bash'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.zsh'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/colcon-core/packages/gazebo_worlds)
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_worlds)
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/gazebo_worlds' for CMake module files
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/gazebo_worlds' for CMake config files
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_worlds', 'cmake_prefix_path')
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/hook/cmake_prefix_path.ps1'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/hook/cmake_prefix_path.dsv'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/hook/cmake_prefix_path.sh'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/gazebo_worlds/bin'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/gazebo_worlds/lib/pkgconfig/gazebo_worlds.pc'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/gazebo_worlds/lib/python3.14/site-packages'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:checking '/home/micah/Documents/ros2_ws/install/gazebo_worlds/bin'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.ps1'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.dsv'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.sh'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.bash'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.zsh'
+[-1793663253807924736.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/micah/Documents/ros2_ws/install/gazebo_worlds/share/colcon-core/packages/gazebo_worlds)
+[-1793663253807924736.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[-1793663253807924736.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[-1793663253807924736.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[-1793663253807924736.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[-1793663253807924736.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[-1793663253807924736.000s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[-1793663253807924736.000s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/micah/Documents/ros2_ws/install/local_setup.ps1'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/micah/Documents/ros2_ws/install/_local_setup_util_ps1.py'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/micah/Documents/ros2_ws/install/setup.ps1'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/micah/Documents/ros2_ws/install/local_setup.sh'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/micah/Documents/ros2_ws/install/_local_setup_util_sh.py'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/micah/Documents/ros2_ws/install/setup.sh'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/micah/Documents/ros2_ws/install/local_setup.bash'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/micah/Documents/ros2_ws/install/setup.bash'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/micah/Documents/ros2_ws/install/local_setup.zsh'
+[-1793663253807924736.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/micah/Documents/ros2_ws/install/setup.zsh'

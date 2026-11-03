@@ -1,0 +1,45 @@
+# ros_gz_bridge config for moon.sdf  (direction: GZ_TO_ROS, ROS_TO_GZ or BIDIRECTIONAL)
+
+- ros_topic_name: "/clock"
+  gz_topic_name: "/clock"
+  ros_type_name: "rosgraph_msgs/msg/Clock"
+  gz_type_name: "gz.msgs.Clock"
+  direction: GZ_TO_ROS
+
+# ---------------- collector rover ----------------
+- ros_topic_name: "/model/collector_rover/cmd_vel"
+  gz_topic_name: "/model/collector_rover/cmd_vel"
+  ros_type_name: "geometry_msgs/msg/Twist"
+  gz_type_name: "gz.msgs.Twist"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/collector_rover/odometry"
+  gz_topic_name: "/model/collector_rover/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/collector_rover/pose"
+  gz_topic_name: "/model/collector_rover/pose"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "gz.msgs.Pose_V"
+  direction: GZ_TO_ROS
+
+# ---------------- hauler rover ----------------
+- ros_topic_name: "/model/hauler_rover/cmd_vel"
+  gz_topic_name: "/model/hauler_rover/cmd_vel"
+  ros_type_name: "geometry_msgs/msg/Twist"
+  gz_type_name: "gz.msgs.Twist"
+  direction: ROS_TO_GZ
+
+- ros_topic_name: "/model/hauler_rover/odometry"
+  gz_topic_name: "/model/hauler_rover/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+
+- ros_topic_name: "/model/hauler_rover/pose"
+  gz_topic_name: "/model/hauler_rover/pose"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "gz.msgs.Pose_V"
+  direction: GZ_TO_ROS

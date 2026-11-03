@@ -1,1 +1,2 @@
-/home/micah/Documents/ros2_ws/build/gazebo_worlds/ament_cmake_environment_hooks/local_setup.dsv
+source;share/gazebo_worlds/environment/ament_prefix_path.sh
+source;share/gazebo_worlds/environment/path.sh

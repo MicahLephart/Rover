@@ -1,0 +1,3 @@
+[console_scripts]
+collector_rover_node = moon_rover_bridge.collector_rover_node:main
+hauler_rover_node = moon_rover_bridge.hauler_rover_node:main

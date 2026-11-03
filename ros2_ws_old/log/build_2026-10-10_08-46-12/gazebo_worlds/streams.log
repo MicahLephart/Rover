@@ -1,0 +1,22 @@
+[0.028s] Invoking command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/micah/Documents/ros2_ws/build/gazebo_worlds -- -j8 -l8
+[0.254s] Invoked command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/micah/Documents/ros2_ws/build/gazebo_worlds -- -j8 -l8
+[0.264s] Invoking command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/micah/Documents/ros2_ws/build/gazebo_worlds
+[0.277s] -- Install configuration: ""
+[0.278s] -- Execute custom install script
+[0.278s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/ament_index/resource_index/package_run_dependencies/gazebo_worlds
+[0.278s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/ament_index/resource_index/parent_prefix_path/gazebo_worlds
+[0.279s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/environment/ament_prefix_path.sh
+[0.279s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/environment/ament_prefix_path.dsv
+[0.279s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/environment/path.sh
+[0.279s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/environment/path.dsv
+[0.280s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/local_setup.bash
+[0.280s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/local_setup.fish
+[0.280s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/local_setup.sh
+[0.280s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/local_setup.zsh
+[0.281s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/local_setup.dsv
+[0.281s] -- Symlinking: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.dsv
+[0.298s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/ament_index/resource_index/packages/gazebo_worlds
+[0.299s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/cmake/gazebo_worldsConfig.cmake
+[0.299s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/cmake/gazebo_worldsConfig-version.cmake
+[0.299s] -- Up-to-date symlink: /home/micah/Documents/ros2_ws/install/gazebo_worlds/share/gazebo_worlds/package.xml
+[0.304s] Invoked command in '/home/micah/Documents/ros2_ws/build/gazebo_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/micah/Documents/ros2_ws/install/space_rover_development:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/micah/Documents/ros2_ws/build/gazebo_worlds

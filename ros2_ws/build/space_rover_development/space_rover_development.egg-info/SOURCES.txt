@@ -1,3 +1,4 @@
+LICENSE
 package.xml
 setup.cfg
 setup.py
@@ -10,12 +11,11 @@ setup.py
 ../../build/space_rover_development/space_rover_development.egg-info/zip-safe
 resource/space_rover_development
 space_rover_development/__init__.py
+space_rover_development/demo.py
 space_rover_development/node_example.py
 space_rover_development/py.typed
-space_rover_development.egg-info/PKG-INFO
-space_rover_development.egg-info/SOURCES.txt
-space_rover_development.egg-info/dependency_links.txt
-space_rover_development.egg-info/entry_points.txt
-space_rover_development.egg-info/requires.txt
-space_rover_development.egg-info/top_level.txt
-space_rover_development.egg-info/zip-safe
+test/test_copyright.py
+test/test_flake8.py
+test/test_mypy.py
+test/test_pep257.py
+test/test_xmllint.py

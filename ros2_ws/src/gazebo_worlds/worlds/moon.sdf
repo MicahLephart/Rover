@@ -114,14 +114,57 @@
     <!-- Models -->
     <!--        -->
 
-    <!-- Robot -->
+    <!-- Collection rover -->
     <include>
       <uri>
         https://fuel.gazebosim.org/1.0/OpenRobotics/models/EXPLORER_R2_SENSOR_CONFIG_1
       </uri>
+      <name>collector_rover</name>
       <pose>0 0 0.45 0 0 0</pose>
+      <!-- Publishes this model's pose and every link pose on /model/collector_rover/pose -->
+      <plugin filename="gz-sim-pose-publisher-system" name="gz::sim::systems::PosePublisher">
+        <publish_link_pose>true</publish_link_pose>
+        <publish_model_pose>true</publish_model_pose>
+        <use_pose_vector_msg>true</use_pose_vector_msg>
+        <update_frequency>30</update_frequency>
+      </plugin>
       <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
-        <topic>/cmd_vel</topic>
+        <topic>/model/collector_rover/cmd_vel</topic>
+        <odom_topic>/model/collector_rover/odometry</odom_topic>
+        <left_joint>left_front_wheel</left_joint>
+        <left_joint>left_rear_wheel</left_joint>
+        <right_joint>right_front_wheel</right_joint>
+        <right_joint>right_rear_wheel</right_joint>
+        <wheel_separation>0.275</wheel_separation>
+        <wheel_radius>0.31</wheel_radius>
+        <max_linear_acceleration>1.0</max_linear_acceleration>
+        <min_linear_acceleration>-1.0</min_linear_acceleration>
+        <max_angular_acceleration>2.0</max_angular_acceleration>
+        <min_angular_acceleration>-2.0</min_angular_acceleration>
+        <max_linear_velocity>0.5</max_linear_velocity>
+        <min_linear_velocity>-0.5</min_linear_velocity>
+        <max_angular_velocity>1.0</max_angular_velocity>
+        <min_angular_velocity>-1.0</min_angular_velocity>
+      </plugin>
+    </include>
+
+    <!-- Hauler rover (PLACEHOLDER: same Explorer model as the collector until a hauler model exists;
+         swap the <uri> and link/joint names when you have the real hauler) -->
+    <include>
+      <uri>
+        https://fuel.gazebosim.org/1.0/OpenRobotics/models/EXPLORER_R2_SENSOR_CONFIG_1
+      </uri>
+      <name>hauler_rover</name>
+      <pose>0 2.0 0.45 0 0 0</pose>
+      <plugin filename="gz-sim-pose-publisher-system" name="gz::sim::systems::PosePublisher">
+        <publish_link_pose>true</publish_link_pose>
+        <publish_model_pose>true</publish_model_pose>
+        <use_pose_vector_msg>true</use_pose_vector_msg>
+        <update_frequency>30</update_frequency>
+      </plugin>
+      <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
+        <topic>/model/hauler_rover/cmd_vel</topic>
+        <odom_topic>/model/hauler_rover/odometry</odom_topic>
         <left_joint>left_front_wheel</left_joint>
         <left_joint>left_rear_wheel</left_joint>
         <right_joint>right_front_wheel</right_joint>
