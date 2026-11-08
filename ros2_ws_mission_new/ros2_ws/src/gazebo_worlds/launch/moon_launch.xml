@@ -1,0 +1,40 @@
+<launch>
+  <!-- Vehicle-node parameters (speed limits etc.). mission_launch.xml passes the scenario file. -->
+  <arg name="params_file"
+       default="$(find-pkg-share moon_rover_bridge)/config/scenarios/baseline.yaml" />
+
+  <!-- Gazebo server running moon.sdf (collector_rover + hauler_rover) -->
+  <gz_server
+    world_sdf_file="$(find-pkg-share gazebo_worlds)/worlds/moon.sdf"
+    use_composition="True"
+    create_own_container="True" />
+
+  <!-- Topic bridge: cmd_vel, odometry, per-rover pose, clock (see config/moon.yaml) -->
+  <ros_gz_bridge
+    bridge_name="ros_gz_bridge"
+    config_file="$(find-pkg-share gazebo_worlds)/config/moon.yaml"
+    use_composition="True" />
+
+  <!-- Optional: service bridge so ~/set_pose can teleport a rover from ROS 2.
+       If your ros_gz_bridge version can't bridge services this node exits; everything else still works. -->
+  <node pkg="ros_gz_bridge" exec="parameter_bridge" name="set_pose_bridge"
+        args="/world/moon/set_pose@ros_gz_interfaces/srv/SetEntityPose" />
+
+  <!-- Vehicle nodes -->
+  <node pkg="moon_rover_bridge" exec="collector_rover_node" name="collector_rover_node" output="screen">
+    <param from="$(var params_file)" />
+    <param name="use_sim_time" value="true" />
+    <param name="world_name" value="moon" />
+    <param name="model_name" value="collector_rover" />
+  </node>
+
+  <node pkg="moon_rover_bridge" exec="hauler_rover_node" name="hauler_rover_node" output="screen">
+    <param from="$(var params_file)" />
+    <param name="use_sim_time" value="true" />
+    <param name="world_name" value="moon" />
+    <param name="model_name" value="hauler_rover" />
+  </node>
+
+  <!-- GUI client (same as before). Remove if you start `gz sim -g` yourself. -->
+  <executable cmd="gz sim -g" />
+</launch>

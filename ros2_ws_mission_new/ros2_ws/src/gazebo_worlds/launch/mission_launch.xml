@@ -1,0 +1,33 @@
+<launch>
+  <!--
+    Full mission: Gazebo moon world + vehicle nodes + collector/hauler mission nodes.
+
+      ros2 launch gazebo_worlds mission_launch.xml                       (baseline)
+      ros2 launch gazebo_worlds mission_launch.xml scenario:=long_buffer
+      ros2 launch gazebo_worlds mission_launch.xml scenario_file:=/abs/path/my.yaml
+
+    The Gazebo GUI starts PAUSED: press play. Timers run on sim time.
+  -->
+  <arg name="scenario" default="baseline"
+       description="Scenario name = file name in moon_rover_bridge/config/scenarios (no .yaml)" />
+  <arg name="scenario_file"
+       default="$(find-pkg-share moon_rover_bridge)/config/scenarios/$(var scenario).yaml"
+       description="Full path to a scenario yaml (overrides 'scenario')" />
+
+  <!-- Gazebo, bridge, vehicle nodes (vehicle speed limits come from the scenario file) -->
+  <include file="$(find-pkg-share gazebo_worlds)/launch/moon_launch.xml">
+    <arg name="params_file" value="$(var scenario_file)" />
+  </include>
+
+  <node pkg="moon_rover_bridge" exec="collector_mission_node" name="collector_mission_node"
+        output="screen">
+    <param from="$(var scenario_file)" />
+    <param name="use_sim_time" value="true" />
+  </node>
+
+  <node pkg="moon_rover_bridge" exec="hauler_mission_node" name="hauler_mission_node"
+        output="screen">
+    <param from="$(var scenario_file)" />
+    <param name="use_sim_time" value="true" />
+  </node>
+</launch>

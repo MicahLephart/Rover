@@ -1,0 +1,43 @@
+{
+  "scenario": "in_bay",
+  "seed": 1,
+  "sim_hours": 16.0,
+  "dt": 1.0,
+  "base": [
+    0.0,
+    0.0
+  ],
+  "field_half_width": 80.0,
+  "boundary_margin": 5.0,
+  "first_site_radius": 100.0,
+  "next_site_radius": 50.0,
+  "max_detour_factor": 2.0,
+  "speed": 0.27,
+  "n_haulers": 1,
+  "collect_s": 900.0,
+  "load_kg_min": 40.0,
+  "load_kg_max": 60.0,
+  "container_kg": 100.0,
+  "auction_s": 558.0,
+  "handoff_s": 0.0,
+  "park_offset": 2.0,
+  "keepout": 1.2,
+  "terrain_obj": "/home/micah/Documents/Flattenedlunarlandscape.obj",
+  "terrain_up": "auto",
+  "terrain_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "terrain_offset": [
+    14.55,
+    7.1,
+    0.0
+  ],
+  "terrain_res": 1.0,
+  "use_terrain": true,
+  "z_min": -2.0,
+  "z_max": 2.0,
+  "max_slope_deg": 20.0,
+  "inflation": 0.5
+}

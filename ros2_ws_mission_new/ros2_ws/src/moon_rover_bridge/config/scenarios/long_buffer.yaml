@@ -1,0 +1,66 @@
+# =====================================================================================
+# Scenario: long_buffer  (EXAMPLE - same as baseline but a 10 min exchange buffer)
+#
+# ONE file = ONE scenario. It is read by BOTH:
+#   * the ROS launch:     ros2 launch gazebo_worlds mission_launch.xml scenario:=baseline
+#   * the offline runner: ros2 run moon_rover_bridge scenario_runner baseline
+# To make a new scenario, copy this file, change scenario_name + what you're testing
+# (usually exchange_buffer_s), and save it next to this one.
+# =====================================================================================
+
+# ---- field + terrain hazards (shared by BOTH mission nodes) ---------------------------
+/**:
+  ros__parameters:
+    field_half_width_m: 80.0      # field is [-80, 80] x [-80, 80]  (160 x 160 m centred on 0,0)
+    boundary_margin_m: 5.0        # sites and paths stay this far inside the edge
+
+    # Hazard avoidance from terrain height. Build the map once with:
+    #   ros2 run moon_rover_bridge build_hazard_map <terrain model dir> -o <this pkg>/config/maps/lunar_surface0.npz
+    # then put the file name here.  "" = no hazard avoidance (straight-line driving).
+    hazard_map_file: ""
+    hazard_z_min: -1000.0         # m   terrain below this is a hazard (pits / crater floors)  SET ME
+    hazard_z_max: 1000.0          # m   terrain above this is a hazard (mounds / rocks)       SET ME
+    hazard_max_slope_deg: 15.0    # deg steeper than this is a hazard (crater walls)
+    hazard_inflation_m: 1.0       # m   keep the rover centre this far from any hazard
+
+# ---- vehicle limits (read by the existing vehicle nodes) -----------------------------
+collector_rover_node:
+  ros__parameters:
+    max_linear: 0.27          # m/s  collector travel speed
+    max_angular: 1.0          # rad/s
+
+hauler_rover_node:
+  ros__parameters:
+    max_linear: 0.27          # m/s  hauler travel speed  (ASSUMED same as collector - change me)
+    max_angular: 1.0
+
+# ---- collector mission ---------------------------------------------------------------
+collector_mission_node:
+  ros__parameters:
+    scenario_name: "long_buffer"
+    random_seed: 42             # same seed = same sequence of sites. -1 = new random every run
+
+    first_site_radius_m: 100.0  # first site: sqrt(x^2 + y^2) = 100 from the field centre
+                                # NOTE: inside +/-75 m this only fits near the 4 corners
+    next_site_radius_m: 50.0    # every later site: 50 m from the current position
+
+    collection_duration_s: 900.0   # 1/4 hour at each site (ACTIVE time)
+    mission_duration_s: 86400.0    # 24 h of sim time
+
+    exchange_buffer_s: 600.0       # EXAMPLE: a slower exchange system
+    exchange_every_n_sites: 1      # hauler swaps the container every N sites (0 = never)
+
+    arrival_tolerance_m: 0.25      # "arrived at site" distance
+    waypoint_tolerance_m: 1.0      # intermediate points of a hazard-free path
+    max_detour_factor: 2.0         # skip sites whose safe path is > 2x the straight distance
+    results_dir: ""                # "" = ~/.ros/mission_results
+
+# ---- hauler mission ------------------------------------------------------------------
+hauler_mission_node:
+  ros__parameters:
+    base_x: 0.0                 # where the hauler returns to unload (its spawn point)
+    base_y: 2.0
+    align_offset_m: 2.0         # parks this far to the collector's LEFT, same heading
+    position_tolerance_m: 0.3
+    yaw_tolerance_rad: 0.1
+    collector_keepout_m: 1.2    # hauler paths keep this far from the parked collector
