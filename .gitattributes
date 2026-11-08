@@ -1,0 +1,5 @@
+Flattenedlunarlandscape.obj filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
+Flattenedlunarlandscape.zip filter=lfs diff=lfs merge=lfs -text
+=======
+>>>>>>> 74a3869 (Tracking Larger Files using GITLFS)
